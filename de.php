@@ -29,6 +29,7 @@ return [
     'Entries' => 'Einträge',
     'Field' => 'Feld',
     'Fields' => 'Felder',
+    'Date' => 'Datum',
     'Latest' => 'Aktuell',
     'Modified' => 'Modifiziert',
     'Today'  => 'Heute',
@@ -148,5 +149,16 @@ return [
     'Save Region' => 'Region speichern',
     'Region removed' => 'Region speichern',
     'Region saved!' => 'Region gespeichert!',
+
+    // Backups
+    'Backups' => 'Backups',
+    'You don\'t have any backups created.' => 'Sie haben keine Backups erstellt',
+    'Create a new backup' => 'Neues Backup erstellen',
+    'Backups are located here' => 'Backups befinden sich hier',
+    'Download backup' => 'Backup herunterladen',
+    'Delete backup' => 'Backup löschen',
+    'Creating backup...' => 'Backup wird erstellt...',
+    'Backup created' => 'Backup wurde erstellt',
+    'Backup deleted' => 'Backup wurde gelöscht',
 
 ];
