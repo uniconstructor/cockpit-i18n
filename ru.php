@@ -16,22 +16,22 @@ return [
     ],
 
     // Common
-    'Dashboard' => 'Главная',
-    'General' => 'Общее',
+    'Dashboard' => 'Панель управления',
+    'General' => 'Основные',
     'Settings' => 'Настройки',
-    'Logout' => 'Выход',
+    'Logout' => 'Выйти',
     'Info' => 'Информация',
     'Filter by name...' => 'Фильтр по имени...',
     'Save' => 'Сохранить',
-    'Cancel' => 'Отмена',
-    'Entry' => 'Запись',
+    'Cancel' => 'Отменить',
+    'Entry' => 'Entry',
     'Entries' => 'Записи',
     'Field' => 'Поле',
     'Fields' => 'Поля',
     'Date' => 'Дата',
-    'Latest' => '',
-    'Created' => '',
-    'Modified' => '',
+    'Latest' => 'Последние',
+    'Created' => 'Дата создания',
+    'Modified' => 'Изменено',
     'Today' => 'Сегодня',
     'Info' => 'Информация',
     'Language' => 'Язык',
@@ -39,9 +39,9 @@ return [
     'Are you sure?' => 'Вы уверены?',
 
     // Login
-    'Authenticate Please!' => '',
-    'Authenticate' => '',
-    'Login failed' => '',
+    'Authenticate Please!' => 'Пожалуйста войдите на сайт!',
+    'Authenticate' => 'Вход',
+    'Login failed' => 'Не удалось войти',
 
     // Accounts
     'Account'  => 'Аккаунт',
@@ -66,8 +66,13 @@ return [
     // Addons 
     'Addons' => 'Плагины',
     'No additional addons installed.' => 'Нет установленых плагинов.',
+    
+    // Search
+    'Search...'=> 'Поиск...',
+    'Search Results'=> 'Результаты поиска',
+    'No results found'=> 'Результатов, соответствующих критериям поиска не найдено',
 
-    // Collections
+ /*   // Collections
     'Collections' => '',
     'Collection' => '',
     'Show entries' => '',
@@ -93,17 +98,17 @@ return [
     'Collection saved!' => '',
     'Entry removed' => '',
     'Entry saved!' => '',
-
+*/
     // Mediamanager
 
-    'Mediamanager' => '',
-    'Bookmarks' => '',
-    'Folders' => '',
-    'Folder' => '',
-    'Files' => '',
-    'File' => '',
-    'You have nothing bookmarked.' => '',
-    'Table mode' => '',
+    'Mediamanager' => 'Медиаменеджер',
+    'Bookmarks' => 'Закладки',
+    'Folders' => 'Папки',
+    'Folder' => 'Папка',
+    'Files' => 'Файлы',
+    'File' => 'Файл',
+    'You have nothing bookmarked.' => 'Вы не делали закладок.',
+/*    'Table mode' => '',
     'List mode' => '',
     'Folders hidden via filter' => '',
     'Files hidden via filter' => '',
@@ -130,8 +135,8 @@ return [
     '%s is already bookmarked.' => '',
     '%s bookmarked.' => '',
     'Do you really want to remove %s ?' => '',
-
-    // Regions
+*/
+/*    // Regions
     'Regions' => '',
     'Region' => '',
     'Add region' => '',
@@ -153,17 +158,17 @@ return [
     'Save Region' => '',
     'Region removed' => '',
     'Region saved!' => '',
-
+*/
     //Versions
     'Versions' => 'Версии',
     'Version' => 'Версия',
     'Restore this version' => 'Восстановить эту версию',
-    'Clear version history' => '',
-    'Close versions' => '',
+    'Clear version history' => 'Очистить историю версий',
+    'Close versions' => 'Закрыть версии',
     'Restoring version...' => 'Восстановление версии...',
-    'Version history cleared!' => '',
+    'Version history cleared!' => 'Исстория версий очищена',
 
-    // Backups
+/*    // Backups
     'Backups' => '',
     'You don\'t have any backups created.' => '',
     'Create a new backup' => '',
@@ -173,23 +178,25 @@ return [
     'Creating backup...' => '',
     'Backup created' => '',
     'Backup deleted' => '',
+*/
 
     // Forms
 
     'Forms' => 'Формы',
     'Form' => 'Форма',
     'Add form' => 'Добавить форму',
-    'Create a form' => '',
+    'Create a form' => 'Создать форму',
     'Edit form' => 'Редактировать форму',
     'Delete form' => 'Удалить форму',
-    'You don\'t have any forms created.' => '',
-    'Email form data to this adress' => '',
-    'Leave the field empty if you don\'t want to recieve any form data via email.' => '',
-    'Save form data' => '',
-    'Save form' => '',
-    'Form snippet example' => '',
-    'It is important to prefix the form fields with <strong>form[...]</strong>.' => '',
+    'You don\'t have any forms created.' => 'У вас нет созданных форм',
+    'Email form data to this adress' => 'Отправить результаты на email',
+    'Leave the field empty if you don\'t want to recieve any form data via email.' => 'Оставьте поле пароля пустым, если не хотите его менять',
+    'Save form data' => 'Сохранить данные формы',
+    'Save form' => 'Сохранить форму',
+    'Form snippet example' => 'Пример сниппета формы',
+ /*   'It is important to prefix the form fields with <strong>form[...]</strong>.' => 'Это важно использовать следующую конструкцию <strong>form[...]</strong>',
     'It seems you don\'t have any form entries.' => '',
-    'Form data' => '',
+    'Form data' => '', */
+
 
 ];
