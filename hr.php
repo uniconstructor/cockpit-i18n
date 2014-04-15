@@ -16,7 +16,6 @@ return [
     ],
 
 
-
     // Common
     'Dashboard' => 'Kontrolna ploča',
     'General' => 'Sustav',
@@ -39,6 +38,12 @@ return [
     'Language' => 'Jezik',
     'System' => 'Sustav',
     'Are you sure?' => 'Sigurno?',
+    'Uuups, something went wrong...' => 'Ups! Nešto je pošlo po zlu...',
+
+    // Activity
+    'Activity' => 'Aktivnosti',
+    'No events logged.' => 'Nema zapisanih aktivnosti',
+    '%s logged in' => '%s se logirao',
 
     // Search
     'Search...'=> 'Pretraga...',
@@ -49,26 +54,46 @@ return [
     'Authenticate Please!' => 'Prijavi se',
     'Authenticate' => 'Prijava',
     'Login failed' => 'Neuspjela prijava',
+    'Welcome back!' => 'Dobrodošli natrag!',
 
     // Accounts
-    'Account'  => 'Račun',
-    'Accounts' => 'Računi',
+    'Account'  => 'Korisnik',
+    'Accounts' => 'Korisnici',
     'Name' => 'Ime',
     'Username' => 'Korisničko ime',
     'Email' => 'Email',
     'Password' => 'Lozinka',
     'New Password' => 'Nova lozinka',
-    'Create account' => 'Napravi račun',
+    'Create account' => 'Napravi novog korisnika',
     'Leave the password field empty to keep your current password.' => 'Ostavi prazno ako ne želiš mijenjati lozinku',
-    'Edit account' => 'Uredi račun',
-    'Edit account settings' => 'Uredi postavke računa',
-    'Delete account' => 'Obriši račun',
-    'Account saved!' => 'Račun spremljen',
+    'Edit account' => 'Uredi korisnika',
+    'Edit account settings' => 'Uredi postavke korisnika',
+    'Delete account' => 'Obriši korisnika',
+    'Account saved!' => 'Korisnik spremljen',
+    'Account removed' => 'Korisnik obrisan',
+    'You can\'t delete yourself!' => 'Ne možeš obrisati vlastiti račun',
+    'You can\'t delete admin accounts!' => 'Ne možeš obrisati administratore',
 
     'Groups' => 'Grupe',
     'Group' => 'Grupa',
-    'Manage account groups and permissions' => 'Upravljanje grupama i dozvolama računa',
+    'Manage account groups and permissions' => 'Upravljanje grupama i dozvolama korisnika',
     'Add group' => 'Dodaj grupu',
+    'Please enter a groupname' => '',
+    'Group saved!' => 'Grupa spremljena',
+    'Group removed!' => 'Grupa obrisana',
+    'Access' => 'Pravo pristupa',
+    'Media root path' => 'Mapa za multimedijske datoteke',
+    'Relative to' => 'Relativno u odnosu na',
+    
+    // Settings
+    'API' => 'API',
+    'Registry' => 'Zapisnik',
+    'Token' => 'Token',
+    'You have no api token generated yet.' => 'Ne postoje napravljeni API tokeni',
+    'Generate api token' => 'Napravi API token',
+    'The registry is just a global key/value storage you can reuse as global options for your app or site.' => 'Zapisnik je pohrana globalnih "key/value" vrijednosti za vašu aplikaciju ili web stranice.',
+    'The registry is empty.' => 'Zapisnik je prazan',
+    'Access the registry values' => 'Pristup podacima zapisnika',
 
     // Addons
     'Addons' => 'Dodaci',
@@ -83,13 +108,25 @@ return [
     'Edit collection' => 'Uredi kolekciju',
     'Delete collection' => 'Obriši kolekciju',
     'You don\'t have any collections created.' => 'Ne postoje napravljene kolekcije',
+    'Create a collection' => 'Napravi kolekciju',
     'Save Collection' => 'Spremi kolekciju',
     'It seems you don\'t have any entries created.' => 'Ne postoje napravljeni unosi',
+    'Field name' => 'Ime polja',
     'Add entry' => 'Dodaj unos',
     'Edit entry' => 'Uredi unos',
     'Delete entry' => 'Obriši unos',
+    'Filter entries...' => 'Filter unosa',
+    'Reset filter' => 'Poništi filter',
+    'No entries found.' => 'Nema pronađenih unosa',
     'This field is required.' => 'Ovo polje je obavezno',
     'It seems you don\'t have any fields created.' => 'Ne postoje napravljena polja',
+    'Field name' => 'Ime polja',
+    'Field type' => 'Vrsta polja',
+    'options...' => 'opcije...',
+    'Code syntax' => 'Sintaksa koda',
+    'default value...' => 'početna vrijednost',
+    'Required' => 'Obavezno',
+    'Separate different options by comma' => 'Odvojite opcije zarezom',
     'Goto entries' => 'Unosi',
     'Fields on entries list page' => 'Polja na popisu unosa',
     'Order entries on list page' => 'Prikaz popisa unosa',
@@ -101,6 +138,7 @@ return [
     'Collection saved!' => 'Kolekcija spremljena',
     'Entry removed' => 'Unos maknut',
     'Entry saved!' => 'Unos spremljen',
+    'Load more...' => 'Učitaj više...',
 
     // Mediamanager
     'Mediamanager' => 'Upravitelj datoteka',
@@ -109,6 +147,7 @@ return [
     'Folder' => 'Mapa',
     'Files' => 'Datoteke',
     'File' => 'Datoteka',
+    'Upload files' => 'Učitaj datoteke',
     'You have nothing bookmarked.' => 'Ne postoje oznake',
     'Table mode' => 'Tablica',
     'List mode' => 'Mreža',
@@ -128,6 +167,7 @@ return [
     'Size' => 'Veličina',
     'Last modified' => 'Zadnje izmjene',
     'This folder is empty.' => 'Ova mapa je prazna',
+    'File(s) uploaded.' => 'Datoteke učitane',
     'Save file' => 'Spremi datoteku',
     'Close file' => 'Zatvori datoteku',
     'Do you really want to remove %s ?' => 'Sigurno želiš maknuti %s?',
@@ -137,12 +177,19 @@ return [
     '%s is already bookmarked.' => '%s je već u oznakama',
     '%s bookmarked.' => '%s dodan u oznake',
     'Do you really want to remove %s ?' => 'Sigurno želiš maknuti %s?',
+    'Please enter a name:' => 'Unesi ime mape',
+    'Please enter a filename:' => 'Unesi ime datoteke',
+    'Nothing selected' => 'Nije ništa odabrano',
 
     // Regions
     'Regions' => 'Odsječci',
     'Region' => 'Odsječak',
     'Add region' => 'Dodaj odsječak',
     'Create a region' => 'Napravi odsječak',
+    'Create groups to organize your regions.' => '',
+    'Group name' => 'Naam groep',
+    'Groups updated' => 'Groepen gewijzigd',
+    'All regions' => 'Svi odsječci',
     'Edit region' => 'Uredi odsječak',
     'Delete region' => 'Obriši odsječak',
     'You don\'t have any regions created.' => 'Ne postoje napravljeni odsječci',
@@ -199,21 +246,26 @@ return [
     'Form data' => 'Podaci obrasca',
 
     // Galleries
-
     'Galleries' => 'Galerije',
     'Gallery' => 'Galerija',
     'You don\'t have any galleries created.' => 'Ne postoje napravljene galerije',
+    'All galleries' => 'Sve galerije',
     'Add gallerie' => 'Dodaj galeriju',
     'Create a gallery' => 'Napravi galeriju',
     'Edit gallery' => 'Uredi galeriju',
     'Delete gallery' => 'Obriši galeriju',
     'Gallery saved!' => 'Galerija spremljena!',
+    'Gallery removed' => 'Galerija je obrisana',
     'Select single image' => 'Odaberi jednu sliku',
     'Import images from folder' => 'Uvezi sliku iz mape',
     'Import images from folder' => 'Uvezi slike iz mape',
     'No images.' => 'Nema slika',
+    'You don\'t have any images in this gallery.' => 'Nema slika u ovoj galeriji',
+    'Meta fields' => 'Polja metapodataka',
+    'No meta fields defined.' => 'Ne postoje polja',
     'Save gallery' => 'Spremi galeriju',
     '%s image(s) imported' => '%s slika uvezeno',
-
+    'Create groups to organize your galleries.' => 'Napravi grupe za organiziranje galerija',
+    'Create new group' => 'Napravi novu grupu'
 
 ];
