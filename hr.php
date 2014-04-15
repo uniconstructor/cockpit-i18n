@@ -180,6 +180,7 @@ return [
     'Please enter a name:' => 'Unesi ime mape',
     'Please enter a filename:' => 'Unesi ime datoteke',
     'Nothing selected' => 'Nije ništa odabrano',
+    'Find files...' => 'Traži datoteke...',
 
     // Regions
     'Regions' => 'Odsječci',
