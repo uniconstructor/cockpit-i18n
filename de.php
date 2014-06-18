@@ -5,7 +5,7 @@ return [
     '@meta' => [
 
         'language' => 'Deutsch',
-        'author'   => 'Artur Heinze',
+        'author'   => 'Julius Elias Sohn',
 
         'date' => [
             'shortdays'   => ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'],
@@ -17,6 +17,8 @@ return [
 
 
     // Common
+    'Authenticate'  => 'Login',
+    'Welcome back!'  => 'Wilkommen zurück!',
     'Dashboard'  => 'Dashboard',
     'General'  => 'Allgemein',
     'Settings' => 'Einstellungen',
@@ -24,6 +26,7 @@ return [
     'Info'     => 'Info',
     'Filter by name...' => 'Nach Namen filtern...',
     'Save' => 'Speichern',
+    'Delete'  => 'Löschen',
     'Cancel' => 'Abbrechen',
     'Entry' => 'Eintrag',
     'Entries' => 'Einträge',
@@ -31,12 +34,18 @@ return [
     'Fields' => 'Felder',
     'Date' => 'Datum',
     'Latest' => 'Aktuell',
+    'Group' => 'Gruppe',
+    'No group' => 'Keine Gruppe',
     'Modified' => 'Modifiziert',
     'Today'  => 'Heute',
     'Info'  => 'Info',
     'Language' => 'Sprache',
     'System' => 'System',
+    'Meta fields' => 'Metadaten',
     'Are you sure?' => 'Sind Sie sicher?',
+    'Search...' => 'Suchen...',
+    'Activity' => 'Aktivitäten',
+    '%s logged in' => '%s hat sich eingeloggt.',
 
     // Login
     'Authenticate Please!' => 'Bitte anmelden!',
@@ -60,6 +69,14 @@ return [
     'Delete account' => 'Konto löschen',
     'Account saved!' => 'Account gespeichert',
 
+    //Groups
+    'Group'=>'Gruppe',
+    'Groups'=>'Gruppen',
+    'Add group'=>'Guppe hinzufügen',
+    'Access'=>'Rechte',
+    'Manage account groups and permissions' => 'Benutzergruppen und Rechte verwalten',
+    'Media root path' => 'Zugriff auf Medienordner',
+
     // Addons
     'Addons'   => 'Erweiterungen',
     'No additional addons installed.' => 'Keine zusätzlichen Erweiterungen sind installiert.',
@@ -69,6 +86,7 @@ return [
     'Collection' => 'Kollektion',
     'Show entries' => 'Einträge anzeigen',
     'Create new entry' => 'Neuen Eintrag erstellen',
+    'Create a collection' => 'Kollektion erstellen',
     'Add collection' => 'Kollektion hinzufügen',
     'Edit collection' => 'Kollektion editieren',
     'Delete collection' => 'Kollektion löschen',
@@ -92,22 +110,24 @@ return [
 
     // Mediamanager
 
-    'Mediamanager' => 'Mediamanager',
+    'Mediamanager' => 'Medienmanager',
     'Bookmarks' => 'Favoriten',
     'Folders' => 'Ordner',
     'Folder' => 'Ordner',
     'Files' => 'Dateien',
     'File' => 'Datei',
+    'Upload files' => 'Dateien hochladen',
+    'Find files...' => 'Dateien suchen...',
     'You have nothing bookmarked.' => 'Sie haben keine Favoriten.',
-    'Table mode' => 'Tabellen Modus',
-    'List mode' => 'Listen Modus',
+    'Table mode' => 'Tabellenansicht',
+    'List mode' => 'Kachelansicht',
     'Folders hidden via filter' => 'Ordner versteckt via Filter',
     'Files hidden via filter' => 'Dateien versteckt via Filter',
     'All' => 'Alle',
     'Show files + directories' => 'Zeige Dateien + Ordner',
     'Show only directories' => 'Zeige nur Ordner',
     'Show only files' => 'Zeige nur Dateien',
-    'Bookmark folder' => 'Ordner favorisieren',
+    'Bookmark folder' => 'Ordner zu Lesezeichen',
     'Rename folder' => 'Ordner umbenennen',
     'Delete folder' => 'Ordner löschen',
     'Bookmark file' => 'Datei favorisieren',
@@ -141,7 +161,7 @@ return [
     'Form fields' => 'Formularfelder',
     'Manage form' => 'Formular bearbeiten',
     'Done' => 'Fertig',
-    'This region has no fields yet.' => 'Diese Region hat aktuell keie Felder.',
+    'This region has no fields yet.' => 'Diese Region hat aktuell keine Felder.',
     'Add field' => 'Feld hinzufügen',
     'Insert form field' => 'Formfeld einfügen',
     'You have no fields added.' => 'Sie haben noch keine Felder angelegt.',
@@ -161,4 +181,66 @@ return [
     'Backup created' => 'Backup wurde erstellt',
     'Backup deleted' => 'Backup wurde gelöscht',
 
+    // Forms
+    'Forms' => 'Formulare',
+    'Form' => 'Formular',
+    'Add form' => 'Formular hinzufügen',
+    'Show all forms' => 'Alle Formulare anzeigen',
+    'Create a form' => 'Eine Formular erstellen',
+    'Edit form' => 'Formular editieren',
+    'Delete form' => 'Formular löschen',
+    'You don\'t have any forms created.' => 'Sie haben bisher keine Formular erstellt.',
+    'Form' => 'Formular',
+    'Template' => 'Template',
+    'Form fields' => 'Formularsfelder',
+    'Form fields' => 'Formularfelder',
+    'Manage form' => 'Formular bearbeiten',
+    'Done' => 'Fertig',
+    'This form has no fields yet.' => 'Diese Formular hat aktuell keine Felder.',
+    'Add field' => 'Feld hinzufügen',
+    'Insert form field' => 'Formfeld einfügen',
+    'You have no fields added.' => 'Sie haben noch keine Felder angelegt.',
+    'Embed form snippet' => 'Embed region snippet',
+    'Save form' => 'Formular speichern',
+    'Save form data' => 'Formulardaten speichern',
+    'Form removed' => 'Formular speichern',
+    'Form saved!' => 'Formular gespeichert!',
+    'Email form data to this adress' => 'Sende die Formulardaten an diese Adresse',
+    'Leave the field empty if you don\'t want to recieve any form data via email.' => 'Lassen Sie Feld leer, wenn Sie die Fomrulardaten nicht zugesendet bekommen möchten.',
+    'It is important to prefix the form fields with %s .' => 'Es ist wichtig, dass der Formularname mit %s beginnt.',
+
+    //API Settings
+    'You have no api token generated yet.' => 'Sie haben noch kein API Token generiert.',
+    'Generate api token' => 'API Token generieren',
+
+
+     // Galleries
+    'Galleries' => 'Gallerien',
+    'Gallery' => 'Gallerie',
+    'Add gallery' => 'Gallerie hinzufügen',
+    'All galleries' => 'Alle Gallerien',
+    'Create groups to organize your galleries.' => 'Erstellen Sie Gruppen um Ihre Gallerien zu verwalten.',
+    'Create new group' => 'Neue Gruppe erstellen',
+    'Show all galleries' => 'Alle Gallerien anzeigen',
+    'Create a gallery' => 'Eine Gallerie erstellen',
+    'Edit gallery' => 'Gallerie editieren',
+    'Delete gallery' => 'Gallerie löschen',
+    'You don\'t have any galleries created.' => 'Sie haben bisher keine Gallerie erstellt.',
+    'Gallery' => 'Gallerie',
+    'Template' => 'Template',
+    'Manage gallery' => 'Gallerie bearbeiten',
+    'Done' => 'Fertig',
+    'This gallery has no fields yet.' => 'Diese Gallerie hat aktuell keine Felder.',
+    'Add images to gallery' => 'Bilder zur Gallerie hinzufügen',
+    'Single image' => 'Einzelnes Bild',
+    'Images from folder' => 'Bilder aus einem Ordner',
+    '%s image(s) imported' => '%s Bilder hinzugefügt',
+    'Insert gallery field' => 'Formfeld einfügen',
+    'You have no fields added.' => 'Sie haben noch keine Felder angelegt.',
+    'Embed gallery snippet' => 'Embed region snippet',
+    'Save gallery' => 'Gallerie speichern',
+    'Save gallery data' => 'Galleriedaten speichern',
+    'Gallery removed' => 'Gallerie speichern',
+    'Gallery saved!' => 'Gallerie gespeichert!',
+    'You don\'t have any images in this gallery.'=>'Sie haben noch keine Bilder zu dieser Gallerie hinzugefügt.'
 ];
