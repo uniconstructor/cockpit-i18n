@@ -58,7 +58,7 @@ return [
 
     // Accounts
     'Account'  => 'Λογαριασμός',
-    'Accounts' => 'Λογοαριασμοί',
+    'Accounts' => 'Λογαριασμοί',
     'Name' => 'Όνομα',
     'Username' => 'Όνομα χρήστη',
     'Email' => 'Email',
