@@ -43,7 +43,7 @@ return [
     // Activity
     'Activity' => 'Δραστηριότητα',
     'No events logged.' => 'Δεν έχουν καταγραφεί συμβάντα.',
-    '%s logged in' => 'συμβάντα καταγράφηκαν',
+    '%s logged in' => 'ο %s συνδέθηκε',
 
     // Search
     'Search...'=> 'Αναζήτηση...',
@@ -58,7 +58,7 @@ return [
 
     // Accounts
     'Account'  => 'Λογαριασμός',
-    'Accounts' => 'Λογοαριασμοί',
+    'Accounts' => 'Λογαριασμοί',
     'Name' => 'Όνομα',
     'Username' => 'Όνομα χρήστη',
     'Email' => 'Email',
