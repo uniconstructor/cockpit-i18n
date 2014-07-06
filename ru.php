@@ -105,6 +105,10 @@ return [
     'Collection' => 'Коллекция',
     'Show entries' => 'Показать записи',
     'Create new entry' => 'Создать новую запись',
+    'Create groups to organize your collections.' => 'Создайте группу для организации коллекций.',
+    'All collections' => 'Все коллекции',
+    'Delete' => 'Удалить',
+    'Show all collections' => 'Показать все коллекции',
     'Add collection' => 'Добавить коллекцию',
     'Edit collection' => 'Редактировать коллекцию',
     'Delete collection' => 'Удалить коллекцию',
@@ -116,6 +120,7 @@ return [
     'Add entry' => 'Добавить запись',
     'Edit entry' => 'Редактировать запись',
     'Delete entry' => 'Удалить запись',
+    'Delete entries' => 'Удалить записи',
     'Filter entries...' => 'Фильтровать записи...',
     'Reset filter' => 'Сбросить фильтр',
     'No entries found.' => 'Записи не найдены.',
@@ -208,6 +213,7 @@ return [
     'Save Region' => 'Сохранить область',
     'Region removed' => 'Область удалена',
     'Region saved!' => 'Область сохранена',
+    'Show all regions' => 'Показать все области',
 
     // Versions
     'Versions' => 'Версии',
@@ -238,13 +244,15 @@ return [
     'Delete form' => 'Удалить форму',
     'You don\'t have any forms created.' => 'У вас нет созданных форм',
     'Email form data to this adress' => 'Отправить результаты на email',
-    'Leave the field empty if you don\'t want to recieve any form data via email.' => 'Оставьте поле пароля пустым, если не хотите его менять',
+    'Leave the field empty if you don\'t want to recieve any form data via email.' => 'Оставьте поле пустым, если не хотите получать данные формы по email',
     'Save form data' => 'Сохранить данные формы',
     'Save form' => 'Сохранить форму',
     'Form snippet example' => 'Пример сниппета формы',
     'It is important to prefix the form fields with <strong>form[...]</strong>.' => 'Важно добавить перед полями формы конструкцию <strong>form[...]</strong>.',
     'It seems you don\'t have any form entries.' => 'Кажется, у вас нет записей формы',
     'Form data' => 'Данные формы',
+    'Form saved!' => 'Форма сохранена!',
+    'Form removed' => 'Форма удалена',
 
     // Galleries
     'Galleries' => 'Галереи',
@@ -257,8 +265,6 @@ return [
     'Delete gallery' => 'Удалить галерею',
     'Gallery saved!' => 'Галерея сохранена',
     'Gallery removed' => 'Галерея удалена',
-    'Select single image' => 'Выберете одно изображение',
-    'Import images from folder' => 'Импортировать изображения из папки',
     'No images.' => 'Нет изображений',
     'You don\'t have any images in this gallery.' => 'У вас нет изображений в этой галерее.',
     'Meta fields' => 'Мета поля',
@@ -266,7 +272,13 @@ return [
     'Save gallery' => 'Сохранить галерею',
     '%s image(s) imported' => '%s изображений импортировано',
     'Create groups to organize your galleries.' => 'Создайте группы для организации ваших галерей',
-    'Create new group' => 'Создать новую группу'
+    'Create new group' => 'Создать новую группу',
+    'Import' => 'Импортировать',
+    'Manage meta fields' => 'Управление мета полями',
+    'Add images to gallery' => 'Добавить изображения в галерею',
+    'Single image' => 'Одно изображение',
+    'Images from folder' => 'Изображения из папки',
+    'Show all galleries' => 'Показать все галереи',
 
 	];
 
