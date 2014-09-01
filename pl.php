@@ -18,7 +18,7 @@ return [
 
 
     // Common
-    'Dashboard' => 'Kokpit',
+    'Dashboard' => 'Pulpit',
     'General' => 'Ogólne',
     'Settings' => 'Ustawienia',
     'Logout' => 'Wyloguj',
