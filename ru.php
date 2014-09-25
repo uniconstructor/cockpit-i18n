@@ -100,6 +100,23 @@ return [
     'Addons' => 'Плагины',
     'No additional addons installed.' => 'Нет установленых плагинов.',
 
+    // Datastore
+    'Datastore' => 'Хранилище данных',
+    'No tables yet.' => 'Нет созданных таблиц.',
+    'Add table' => 'Добавить таблицу',
+    'Create a table' => 'Создать таблицу',
+    'Table' => 'Таблица',
+    'Manage table' => 'Изменить таблицу',
+    'Delete table' => 'Удалить таблицу',
+    'No Entries' => 'Нет записей',
+    'Actions' => 'Действия',
+    'Export data' => 'Экспортировать данные',
+    'Empty table' => 'Очистить таблицу',
+
+    // Update
+    'Update' => 'Обновление',
+    'Getting information...' => 'Получение информации...',
+
     // Collections
     'Collections' => 'Коллекции',
     'Collection' => 'Коллекция',
