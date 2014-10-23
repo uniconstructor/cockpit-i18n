@@ -51,7 +51,6 @@ return [
     // Login
     'Authenticate Please!' => 'Authentifiez vous, SVP !',
     'Welcome back!' => 'Bienvenue !',
-    'Please login by using your auth credentials.' => 'Merci de vous connecter en utilisant vos identifiants.',
     'Authenticate' => 'S\'authentifier',
     'Login failed' => 'Erreur de login',
 
@@ -98,22 +97,44 @@ return [
     'Addons'   => 'Extensions',
     'No additional addons installed.' => 'Pas d\'extensions installées.',
 
+    // Datastore
+    'Datastore' => 'Banque de données',
+    'No tables yet.' => 'Pas encore de table',
+    'Add table' => 'Ajouter une table',
+    'Create a table' => 'Créér une table',
+    'Table' => 'Table',
+    'Manage table' => 'Gérer table',
+    'Delete table' => 'Supprimer table',
+    'No Entries' => 'Pas d\'entrée',
+    'Actions' => 'Action',
+    'Export data' => 'Exporter table',
+    'Empty table' => 'Table vide',
+
+    // Updater
+    'Update' => 'Mise à jour',
+    'Getting information...' => 'Recherche d\'information...',
+
     // Collections
     'Collections' => 'Collections',
     'Collection' => 'Collection',
     'Show entries' => 'Voir les entrées',
     'Create new entry' => 'Créer une nouvelle entrée',
+    'Create groups to organize your collections.' => 'Créer des groupes pour organiser vos collections.',
+    'All collections' => 'Toutes les collections',
+    'Delete' => 'Supprimer',
+    'Show all collections' => 'Voir toutes les collections',
     'Add collection' => 'Ajouter une colletion',
     'Edit collection' => 'Modifier la collection',
     'Delete collection' => 'Supprimer la collection',
     'You don\'t have any collections created.' => 'Vous n\'avez aucune collection de créée.',
 	'Create a collection' => 'Créer une collection',
     'Save Collection' => 'Sauver la collection',
-    'It seems you don\'t have any fields created.' => 'Vous n\'avez aucun champ de créé.',
+    'It seems you don\'t have any entries created.' => 'Vous n\'avez aucune entrée de créée.',
 	'Field name' => 'Nom du champ',
 	'Add entry' => 'Ajouter des entrées',
     'Edit entry' => 'Modifier l\'entrée',
     'Delete entry' => 'Supprimer l\'entrée',
+    'Delete entries' => 'Supprimer les entrées',
 	'Filter entries...' => 'Filtrer les entrées',
     'Reset filter' => 'Réinitier le filtre',
 	'No entries found.' => 'Aucune entrée trouvée.',
@@ -206,6 +227,7 @@ return [
     'Save Region' => 'Sauver la région',
     'Region removed' => 'Supprimer la région',
     'Region saved!' => 'Région sauvée !',
+    'Show all regions' => 'Voir toutes les régions',
 
     // Versions
     'Versions' => 'Versions',
@@ -243,7 +265,9 @@ return [
     'It is important to prefix the form fields with <strong>form[...]</strong>.' => 'Il est important de préfixer les champs du formulaire par <strong>form[...]</strong>.',
     'It seems you don\'t have any form entries.' => 'Il semble que vous n\'ayez aucune entrée.',
     'Form data' => 'Données du formulaire',
-	
+    'Form saved!' => 'Formulaire enregistré !',
+    'Form removed' => 'Formulaire supprimé',
+
     // Galleries
     'Galleries' => 'Galeries',
     'Gallery' => 'Galerie',
@@ -264,5 +288,11 @@ return [
     'Save gallery' => 'Sauver la galerie',
     '%s image(s) imported' => '%s image(s) importées',
     'Create groups to organize your galleries.' => 'Créer un groupe pour organiser les galeries',
-    'Create new group' => 'Créer un nouveau groupe'
+    'Create new group' => 'Créer un nouveau groupe',
+    'Import' => 'Importer',
+    'Manage meta fields' => 'Gérer les champs de metadonnée',
+    'Add images to gallery' => 'Ajouter des images à la gallerie',
+    'Single image' => 'Une seule image',
+    'Images from folder' => 'Images depuis un dossier',
+    'Show all galleries' => 'Voir toutes les galleries',
 ];
