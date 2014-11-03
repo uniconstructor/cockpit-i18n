@@ -22,7 +22,7 @@ return [
     'Settings' => 'Postavke',
     'Logout' => 'Odjava',
     'Info' => 'Info',
-    'Filter by name...' => 'Filter prema imenu...',
+    'Filter by name...' => 'Filtar prema imenu...',
     'Save' => 'Spremi',
     'Cancel' => 'Prekini',
     'Entry' => 'Unos',
@@ -98,6 +98,23 @@ return [
     // Addons
     'Addons' => 'Dodaci',
     'No additional addons installed.' => 'Nema instaliranih dodataka',
+    
+    // Datastore
+    'Datastore' => 'Baza podataka',
+    'No tables yet.' => 'Nema tablica',
+    'Add table' => 'Dodaj tablicu',
+    'Create a table' => 'Napravi tablicu',
+    'Table' => 'Tablica',
+    'Manage table' => 'Upravljanje tablicom',
+    'Delete table' => 'Obriši tablicu',
+    'No Entries' => 'Nema unosa',
+    'Actions' => 'Akcije',
+    'Export data' => 'Izvoz podataka',
+    'Empty table' => 'Isprazni tablicu',
+
+    // Updater
+    'Update' => '',
+    'Getting information...' => '',
 
     // Collections
     'Collections' => 'Kolekcije',
@@ -115,8 +132,8 @@ return [
     'Add entry' => 'Dodaj unos',
     'Edit entry' => 'Uredi unos',
     'Delete entry' => 'Obriši unos',
-    'Filter entries...' => 'Filter unosa',
-    'Reset filter' => 'Poništi filter',
+    'Filter entries...' => 'Filtar unosa',
+    'Reset filter' => 'Poništi filtar',
     'No entries found.' => 'Nema pronađenih unosa',
     'This field is required.' => 'Ovo polje je obavezno',
     'It seems you don\'t have any fields created.' => 'Ne postoje napravljena polja',
@@ -151,8 +168,8 @@ return [
     'You have nothing bookmarked.' => 'Ne postoje oznake',
     'Table mode' => 'Tablica',
     'List mode' => 'Mreža',
-    'Folders hidden via filter' => 'Mape sakrivene filterom',
-    'Files hidden via filter' => 'Datoteke sakrivene filterom',
+    'Folders hidden via filter' => 'Mape sakrivene filtarom',
+    'Files hidden via filter' => 'Datoteke sakrivene filtarom',
     'All' => 'Sve',
     'Show files + directories' => 'Prikaži datoteke i mape',
     'Show only directories' => 'Prikaži samo mape',
@@ -189,7 +206,7 @@ return [
     'Create a region' => 'Napravi odsječak',
     'Create groups to organize your regions.' => 'Napravi grupe za odsječke',
     'Group name' => 'Ime grupe',
-    'Groups updated' => 'Grupe ažururane',
+    'Groups updated' => 'Grupe ažurirane',
     'All regions' => 'Svi odsječci',
     'Edit region' => 'Uredi odsječak',
     'Delete region' => 'Obriši odsječak',
