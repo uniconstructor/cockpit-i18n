@@ -113,8 +113,8 @@ return [
     'Empty table' => 'Isprazni tablicu',
 
     // Updater
-    'Update' => '',
-    'Getting information...' => '',
+    'Update' => 'Ažuriraj Cockpit',
+    'Getting information...' => 'Preuzimam podatke...',
 
     // Collections
     'Collections' => 'Kolekcije',
