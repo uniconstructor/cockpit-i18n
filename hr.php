@@ -225,6 +225,7 @@ return [
     'Save Region' => 'Spremi odsječak',
     'Region removed' => 'Odsječak maknut',
     'Region saved!' => 'Odsječak spremljen',
+    'Show all regions' => 'Prikaži sve odsječke',
 
     // Versions
     'Versions' => 'Verzije',
@@ -262,6 +263,8 @@ return [
     'It is important to prefix the form fields with <strong>form[...]</strong>.' => 'Bitno je staviti prefiks ispred polja obrasca <strong>form[...]</strong>.',
     'It seems you don\'t have any form entries.' => 'Ne postoje unesi obrasci',
     'Form data' => 'Podaci obrasca',
+    'Form saved!' => 'Obrazac je spremljen',
+    'Form removed' => 'Obrazac je uklonjen',
 
     // Galleries
     'Galleries' => 'Galerije',
@@ -284,6 +287,12 @@ return [
     'Save gallery' => 'Spremi galeriju',
     '%s image(s) imported' => '%s slika uvezeno',
     'Create groups to organize your galleries.' => 'Napravi grupe za organiziranje galerija',
-    'Create new group' => 'Napravi novu grupu'
+    'Create new group' => 'Napravi novu grupu',
+    'Import' => 'Uvezi',
+    'Manage meta fields' => 'Upravljanje metapodacima',
+    'Add images to gallery' => 'Dodaj slike u galeriju',
+    'Single image' => 'Jedna slika',
+    'Images from folder' => 'Slike iz mape',
+    'Show all galleries' => 'Prikaži sve galerije'
 
 ];
