@@ -284,7 +284,7 @@ return [
     'It seems you don\'t have any form entries.' => 'Nie masz jeszcze żadnych wpisów formularza.',
     'Form data' => 'Dane formularza',
     'Form saved!' => 'Formularz zapisany!',
-    'Form removed' => "Formularz usunięty',
+    'Form removed' => 'Formularz usunięty',
 
     // Galleries
     'Galleries' => 'Galerie',
