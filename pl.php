@@ -83,7 +83,7 @@ return [
     'Group' => 'Grupa',
     'Manage account groups and permissions' => 'Zarządzaj grupami kont i uprawnieniami',
     'Add group' => 'Dodaj grupę',
-    'Please enter a groupname' => '',
+    'Please enter a groupname' => 'Wpisz nazwę grupy',
     'Group saved!' => 'Grupę zapisano!',
     'Group removed!' => 'Grupę usunięto!',
     'Access' => 'Dostęp',
@@ -96,7 +96,7 @@ return [
     'Token' => 'Klucz bezpieczeństwa',
     'You have no api token generated yet.' => 'Nie masz jeszcze wygenerowanego klucza bezpieczeństwa',
     'Generate api token' => 'Wygeneruj klucz bezpieczeństwa',
-    'The registry is just a global key/value storage you can reuse as global options for your app or site.' => '',
+    'The registry is just a global key/value storage you can reuse as global options for your app or site.' => 'Rejestr to globalna przechowywalnia typu klucz/zawartość z której można korzystać do zarządzania opcjami dla aplikacji albo wintryny.',
     'The registry is empty.' => 'Rejestr jest pusty.',
     'Access the registry values' => 'Dostęp do wpisów rejestru',
     'No locales added yet.' => 'Nie dodano jeszcze żadnych języków dla treści',
@@ -107,11 +107,30 @@ return [
     'Addons' => 'Dodatki',
     'No additional addons installed.' => 'Brak zainstalowanych dodatków.',
 
+    // Datastore
+    'Datastore' => 'Magazyn danych',
+    'No tables yet.' => 'Brak tabeli',
+    'Add table' => 'Dodaj tabelę',
+    'Create a table' => 'Utwórz tabelę',
+    'Table' => 'Tabela',
+    'Manage table' => 'Zarządzaj tabelą',
+    'Delete table' => 'Usuń tabelę',
+    'No Entries' => 'Brak wpisów',
+    'Actions' => 'Operacje',
+    'Export data' => 'Eksportuj dane',
+    'Empty table' => 'Pusta tabela',
+
+    // Updater
+    'Update' => 'Aktualizuj',
+    'Getting information...' => 'Pobieram informacje',
+
     // Collections
     'Collections' => 'Kolekcje',
     'Collection' => 'Kolekcja',
     'Show entries' => 'Pokaż wpisy',
     'Create new entry' => 'Utwórz nowy wpis',
+    'Create groups to organize your collections.' => 'Utwórz grupy aby zorganizować kolekcje',
+    'All collections' => 'Wszystkie kolekcje',
     'Add collection' => 'Dodaj kolekcję',
     'Edit collection' => 'Edytuj kolekcję',
     'Duplicate collection' => 'Duplikuj kolekcję',
@@ -126,6 +145,7 @@ return [
     'Edit entry' => 'Edytuj wpis',
     'Duplicate entry' => 'Duplikuj wpis',
     'Delete entry' => 'Usuń wpis',
+    'Delete entries' => 'Usuń wpisy',
     'Filter entries...' => 'Filtruj wpisy...',
     'Reset filter' => 'Wyczyść filtr',
     'No entries found.' => 'Nie znaleziono żadnych wpisów.',
@@ -193,6 +213,7 @@ return [
     'Please enter a filename:' => 'Podaj nazwę pliku',
     'Nothing selected' => 'Nic nie wybrano',
     'Find files...' => 'Przeszukaj pliki...',
+    'Pick Media path' => 'Wybierz media',
 
     // Regions
     'Regions' => 'Regiony',
@@ -223,6 +244,7 @@ return [
     'Save Region' => 'Zapisz region',
     'Region removed' => 'Region usunięto',
     'Region saved!' => 'Region zapisano',
+    'Show all regions' => 'Pokaż wszystkie regiony',
 
     // Versions
     'Versions' => 'Wersje',
@@ -261,6 +283,8 @@ return [
     'It is important to prefix the form fields with <strong>form[...]</strong>.' => 'Ważne jest, aby pola formularza posiadały przyrostek <strong>form[...]</strong>.',
     'It seems you don\'t have any form entries.' => 'Nie masz jeszcze żadnych wpisów formularza.',
     'Form data' => 'Dane formularza',
+    'Form saved!' => 'Formularz zapisany!',
+    'Form removed' => "Formularz usunięty',
 
     // Galleries
     'Galleries' => 'Galerie',
@@ -268,19 +292,13 @@ return [
     'You don\'t have any galleries created.' => 'Nie utworzono jeszcze żadnej galerii.',
     'All galleries' => 'Wszystkie galerie',
     'Add gallery' => 'Dodaj galerię',
-    'Show all galleries' => 'Pokaż wszystkie galerie',
     'Create a gallery' => 'Utwórz galerię',
     'Edit gallery' => 'Edytuj galerię',
     'Delete gallery' => 'Usuń galerię',
     'Gallery saved!' => 'Galerię zapisano!',
     'Gallery removed' => 'Galerię usunięto',
     'Select single image' => 'Wybierz pojedynczy obraz',
-    'Add images to gallery' => 'Dodaj obrazy do galerii',
-    'Single image' => 'Pojedynczy obraz',
-    'Images from folder' => 'Obrazy z folderu',
-    'Mediapicker' => 'Wybieranie mediów',
-    // 'Import images from folder' => 'Importuj obrazy z folderu',
-    // 'Import images from folder' => 'Importuj obrazy z folderu',
+    'Import images from folder' => 'Importuj obrazy z folderu',
     'No images.' => 'Brak obrazów',
     'You don\'t have any images in this gallery.' => 'Nie masz jeszcze żadnych obrazów w tej galerii.',
     'Meta fields' => 'Pola opisu',
@@ -288,6 +306,12 @@ return [
     'Save gallery' => 'Zapisz galerię',
     '%s image(s) imported' => '%s obraz/ów zaimportowano',
     'Create groups to organize your galleries.' => 'Utwórz grupy, aby zorganizować Twoje galerie.',
-    'Create new group' => 'Utwórz nową grupę'
-
+    'Create new group' => 'Utwórz nową grupę',
+    'Import' => 'Importuj',
+    'Manage meta fields' => 'Zarządzaj polami meta',
+    'Add images to gallery' => 'Dodaj obrazy do galerii',
+    'Single image' => 'Pojedynczy obraz',
+    'Images from folder' => 'Obrazy z folderu',
+    'Show all galleries' => 'Pokaż wszystkie galerie',
+    'Mediapicker' => 'Wybieranie mediów',
 ];
