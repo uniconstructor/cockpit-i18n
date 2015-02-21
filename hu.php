@@ -43,7 +43,7 @@ return [
     'Latest' => 'Legutóbbi',
     'Group' => 'Csoport',
     'No group' => 'Nincs csoport',
-    'Modified' => 'Módosított',
+    'Modified' => 'Módosítva',
     'Today'  => 'Ma',
     'Info'  => 'Infó',
     'Language' => 'Nyelv',
@@ -121,7 +121,22 @@ return [
     'Entry saved!' => 'Tétel mentve!',
 	'Duplicate collection' => 'Kollekció másolása',
 	'Related collection' => 'Kapcsolódó kollekció',
-
+	'Filter entries...' => 'Tételek szűrése...',
+	'Reset filter' => 'Szűrés törlése',
+	'Export data' => 'Adatok exportálása',
+	
+	// System
+	'System' => 'Rendszer',
+	'System Information' => 'Rendszerinformáció',
+	'General' => 'Általános',
+	'Version' => 'Verzió',
+	'Cache size' => 'Gyorsítótár mérete',
+	'Data size' => 'Adatok mérete',
+	'Mailer' => 'Levelező',
+	'No mailer settings found.' => 'Levelezési beállítások nem találhatók.',
+	'Directories' => 'Könyvtárak',
+	'Path' => 'Útvonal',
+	
     // Mediamanager
 
     'Mediamanager' => 'Médiamenedzser',
@@ -262,5 +277,12 @@ return [
     'Save gallery data' => 'Galériaadatok mentése',
     'Gallery removed' => 'Galéria törölve',
     'Gallery saved!' => 'Galéria mentve!',
-    'You don\'t have any images in this gallery.'=>'Nincsenek képek a galériában.'
+    'You don\'t have any images in this gallery.'=>'Nincsenek képek a galériában.',
+	
+	// Datastore
+	'Datastore' => 'Adattár',
+	'No tables yet.' => 'Nincsenek táblák.',
+	'Create a table' => 'Tábla létrehozása',
+	'Add table' => 'Tábla felvétele',
+	'No Entries' => 'Nincsenek tételek',
 ];
