@@ -1,0 +1,7 @@
+{
+    "name": "aheinze/cockpit-i18n",
+    "license": "MIT",
+    "require": {
+        "aheinze/cockpit": "*"
+    }
+}
